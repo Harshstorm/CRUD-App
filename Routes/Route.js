@@ -8,7 +8,7 @@ import { deleteAll } from "../Controllers/DeleteAll.js";
 const router = express()
 
 router.post('/saveUser', saveUser)
-router.post('/getusers', getUsers )
+router.get('/getusers', getUsers )
 router.post('/updateuser', updateUser )
 router.post('/deleteuser', deleteUser )
 router.post('/deleteall', deleteAll )
